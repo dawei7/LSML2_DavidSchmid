@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+</head>
+<body>
+    <h1>Prediction</h1>
+    <button><a href="/" style="color:#ffffff">Return</a></button>
+    <div id="content">
+      <p>{{error or success}}</p>
+        {% if success %}
+      <p>
+          <img src="data:image/jpeg;base64,{{ answer }}"/>
+      </p>
+        {% endif %}
+    </div>
+    <footer class="w3-container w3-black">
+        <div>Made by David Schmid</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+</head>
+<body>
+    <h1>Face mask detection</h1>
+    <div>
+        <p>This application can identify if in a picture whether persons wearing masks or no masks.</p>
+        <p>If there is a face recognized, the model provides an accuracy of around 90%, if there is a mask or there is no mask.</p>
+        <p>Have fun!</p>
+    </div>
+    <div id="form">
+            <form action="/predict" method="post" enctype="multipart/form-data">
+                <p><input class="w3-input" type="file" name="image"></p>
+                <p><button type="submit">Predict</button></p>
+            </form>
+        </div>
+    <br>
+    <footer>Made by David Schmid</footer>
+</body>
+</html>
