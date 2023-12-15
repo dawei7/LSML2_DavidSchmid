@@ -1,6 +1,7 @@
 # Face mask detection - LSML2 Final project
 The app can recognize faces and predict, if they wear "masks" or "no masks" (Binary image classification).
 
+
 ### Dataset
 The Dataset is available here: https://www.kaggle.com/datasets/wobotintelligence/face-mask-detection-dataset/code <br>
 The dataset is provided by Wobot Intelligence a, which provides artificial intelligence-based solution for video analytics.<br>
